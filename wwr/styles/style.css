@@ -43,8 +43,6 @@ main section{
 #background{
     height: 725px;
     background-color: #465775;
-    /* may need to remove next line in the future*/
-    margin-bottom: 150px;
 }
 
 body{
@@ -95,9 +93,6 @@ main section img{
 .msg{
     background-color: #7E8B56;
     line-height: 1.5em;
-    /* may need to remove next line in the future*/
-    margin-top: 50px
-    
 }
 
 .msg h2{
