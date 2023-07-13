@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cross Stitch Main Page</title>
+    <link rel="stylesheet" href="styles/style.css">
+
 </head>
 <body>
     <div id="content">
@@ -25,7 +27,8 @@
             <section id="hero-msg">
                 <h1 class="home-title">Creating Pop-culture Refrences One Stitch At a Time</h1>
             </section>
-            <main class="aboutme">
+        </div>
+        <main id="aboutme">
                 <div id="whydoicrossstitch">
                     <img class="crossstitchimg" src="images/hot_air_balloon.jpg" alt="hot air balloon">
                 </div>
@@ -49,19 +52,27 @@
                         on Wendesdays as a part of WIP Wednesdays over on TikTok.
                     </p>
                 </section>
-                <section class="mycurrentwips">
+            </main>   
+                <div id="mycurrentwips">
                     <section class="wip1">
-                        <img class="card-img" src="images/geisha_update.jpg" alt="wip1">
-                        <h2>WIP #1</h2>
+                        <a href="wip_index.html" target="_blank">
+                            <img class="card-img" src="images/geisha_update.jpg" alt="wip1">
+                        </a>
+                            <h2>WIP #1</h2> 
                     </section>
                     <section class="wip2">
-                        <img class="card-img" src="images/pokemon_update.jpg" alt="wip2">
+                        <a href="wip_index.html" target="_blank">
+                            <img class="card-img" src="images/cherryblossom_update.jpg" alt="wip2">
+                        </a>
                         <h2>WIP #2</h2>
                     </section>
                     <section class="wip3">
-                        <img class="card-img" src="images/cherryblossom_update.jpg" alt="wip3">
+                        <a href="wip_index.html" target="_blank">
+                            <img class="card-img" src="images/pokemon_update.jpg" alt="wip3">
+                    </a>
                         <h2>WIP #3</h2>
-                </section>  
+                </div>
+            
                 <footer> 
                 <p>Cherry Blossom Stitching &copy; 2023 - McKenna Harker</p>
                 <p><a href="site-plan.html">Site Plan</a></p>
@@ -76,11 +87,11 @@
                         <img src="images/instagram.png" alt="instagram icon">
                     </a>
                     <a href="https://tiktok.com" target="_blank">
-                        <img src="images/tiktok.png" alt="tiktok icon">
+                        <img class="tiktok" src="images/tiktok.png" alt="tiktok icon">
                     </a>
                 </div> 
                 </footer>
-            </main> 
+
         </div>
 </body>
 </html>
