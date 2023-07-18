@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Cherry+Swash&family=Nunito&display=swap');
 .home-title{
+<<<<<<< HEAD
     color: #475228;
+=======
+    color: #ffb7c5;
+>>>>>>> 604f452b66efb8ac2ed2ac00a319c2b899cfae77
     font-family: 'Cherry Swash', 'Bradley Hand', sans-serif;
     font-size: 2em;
     margin-top: 10px;
