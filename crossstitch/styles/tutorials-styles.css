@@ -144,7 +144,7 @@ footer .social img{
     padding-top: 10px;
     
 }
-.tutorial1{
+.tutorial1, .tutorial2, .tutorial3{
     height: 700px;
     display: block;
     margin-left: auto;
@@ -153,23 +153,6 @@ footer .social img{
     border: 10px solid #6290C8;
 }
 
-.tutorial2{
-    height: 700px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    border: 10px solid #6290C8;
-}
-
-.tutorial3{
-    height: 700px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    border: 10px solid #6290C8;
-}
 
 
 .start{
