@@ -145,12 +145,32 @@ footer .social img{
     
 }
 .tutorial1{
-    height: 500px;
+    height: 700px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    border: 10px solid #6290C8;
 }
+
+.tutorial2{
+    height: 700px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: 10px solid #6290C8;
+}
+
+.tutorial3{
+    height: 700px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: 10px solid #6290C8;
+}
+
 
 .start{
     padding-top: 100px;
